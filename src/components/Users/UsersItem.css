@@ -1,0 +1,41 @@
+.containerMain{
+   display: flex;
+   width: 250px;
+   height: 350px;
+   margin: 0 auto;
+   border-radius: 10px;
+   background-color: #fff;
+   box-shadow: 1px 3px 8px ;
+}
+/*.backImage{
+/*}*/
+.containerCard{
+   display: inline-block;
+   display: grid;
+   width: 250px;
+   height: 350px;
+   border: 2px solid;
+   background-color: rgba(254, 100, 73, 0.586);
+}
+.containerCard p{
+   display: flex;
+   margin: 20px;
+   font-size: 16px;
+
+}
+.containerCard:hover{
+   height: 370px;
+   cursor: pointer;
+
+
+}
+.imageUser{
+border-radius: 100px;
+margin:30px 20px ;
+height: 100px;
+
+}
+.nameUser{
+   font-size: 25px;
+   
+}
